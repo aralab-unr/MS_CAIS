@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="bigger_rough_3crack_2spall">
+    <static>true</static>
+    <link name="link">
+    <inertial>
+    <mass>0.01</mass>
+    </inertial>
+      <collision name="collision">
+        <geometry>
+          <!-- <box>
+          <size> 1 1 1 </size>
+          </box> -->
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://bigger_rough_3crack_2spall/meshes/bigger_rough_3crack_2spall.dae</uri>
+          </mesh>        
+           <!-- <surface>
+            <friction>
+              <ode>
+                <mu>1.2</mu>
+                <mu2>1.2</mu2>
+              </ode>
+            </friction>
+          </surface>     -->
+        </geometry>    
+      </collision>
+    
+      <visual name="visual">
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://bigger_rough_3crack_2spall/meshes/bigger_rough_3crack_2spall.dae</uri>
+            </mesh>
+          </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
