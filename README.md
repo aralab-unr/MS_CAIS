@@ -40,7 +40,7 @@ Use the following commands to download and build the package: (The code is imple
     catkin build
     source devel/setup.bash
 ```
-Put [bigger_rough_3crack_2spall](https://github.com/khuechuong/culvert_sim/tree/main/model/bigger_rough_3crack_2spall) and all other model folder in ```.gazebo/model``` folder
+Put [bigger_rough_3crack_2spall](https://github.com/aralab-unr/MS_CAIS/tree/master/model/bigger_rough_3crack_2spall) and all other model folder in ```.gazebo/model``` folder
 
 ```
 
