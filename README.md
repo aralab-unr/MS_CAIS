@@ -27,3 +27,16 @@ The framework has been tested with ROS Noetic and Ubuntu 20.04. The following co
 - [rosserial](https://github.com/ros-drivers/rosserial)
 - [ouster_ros](https://github.com/ouster-lidar/ouster-ros)
 - [rosserial_arduino](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup)
+
+## Install
+Use the following commands to download and build the package: (The code is implemented in ROS1)
+
+```
+    # caktin_ws or your workspace dir 
+    mkdir -p ~/catkin_ws/src 
+    cd ~/caktin_ws/src    
+    git clone https://github.com/aralab-unr/MS_CAIS.git
+    cd ..
+    catkin build
+    source devel/setup.bash
+```
