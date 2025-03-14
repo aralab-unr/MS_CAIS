@@ -9,3 +9,15 @@ The framework has been tested with ROS Noetic and Ubuntu 20.04. The following co
 - [Depthai Dependencies](https://docs.luxonis.com/software/ros/depthai-ros/build/)
 - [CUDA](https://developer.nvidia.com/cuda-downloads) (Recommend to use CUDA toolkit >= 11 for Ubuntu 20.04)
 - [ultralytics](https://github.com/ultralytics)
+
+
+## ROS package
+- [depthai-ros](https://github.com/luxonis/depthai-ros/tree/noetic)
+- [bunker_ros](https://github.com/agilexrobotics/bunker_ros)
+- [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3) (for simulations)
+- [turtlebot3_simulations](https://github.com/ROBOTIS-GIT/turtlebot3_simulations) (for simulations)
+- [cv_bridge](https://github.com/ros-perception/vision_opencv)
+- [velodyne](https://github.com/ros-drivers/velodyne)
+- [rosserial](https://github.com/ros-drivers/rosserial)
+- [ouster_ros](https://github.com/ouster-lidar/ouster-ros)
+- [rosserial_arduino](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup)
