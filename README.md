@@ -40,3 +40,28 @@ Use the following commands to download and build the package: (The code is imple
     catkin build
     source devel/setup.bash
 ```
+Put [bigger_rough_3crack_2spall](https://github.com/khuechuong/culvert_sim/tree/main/model/bigger_rough_3crack_2spall) and all other model folder in ```.gazebo/model``` folder
+
+```
+
+roscd culvert_sim
+cd model
+mv bigger_rough_3crack_2spall ~/.gazebo/model/
+```
+
+## Simulations
+```
+# launch sim environment
+roslaunch turtlebot3_culvert.launch
+    or
+roslaunch turtlebot3_culvert_2_def.launch
+    or
+turtlebot3_culvert_3_def.launch
+
+# launch auto
+roslaunch sim.launch
+```
+
+## Contact
+- [Chuong Le](mailto:chuongl@unr.edu)
+- [Hung La](mailto:hla@unr.edu)
