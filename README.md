@@ -17,6 +17,7 @@ The framework has been tested with ROS Noetic and Ubuntu 20.04. The following co
 
 ## ROS package
 - [depthai-ros](https://github.com/luxonis/depthai-ros/tree/noetic)
+- [dlio](https://github.com/vectr-ucla/direct_lidar_inertial_odometry)
 - [bunker_ros](https://github.com/agilexrobotics/bunker_ros)
 - [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3) (for simulations)
 - [turtlebot3_simulations](https://github.com/ROBOTIS-GIT/turtlebot3_simulations) (for simulations)
