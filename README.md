@@ -58,8 +58,6 @@ roslaunch turtlebot3_culvert_2_def.launch
     or
 turtlebot3_culvert_3_def.launch
 
-# launch auto
-roslaunch sim.launch
 ```
 
 ## Contact
