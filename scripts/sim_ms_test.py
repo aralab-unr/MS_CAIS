@@ -74,7 +74,7 @@ def stack_pc(pc_list):
     if not merged_pc:  # Check if merged_pc is empty
         rospy.logwarn("Warning: No data to stack, returning empty array.")
         return np.empty((0, 6))
-        
+
     final_pc = np.vstack(merged_pc)
     return final_pc
 
@@ -1120,9 +1120,16 @@ class Sim_MS:
             self.publish_velocity(lin_vel, ang_vel)
             print("Goal Reached")
             return True
+
         # angle_diff = abs(shortest_angular_difference(self.robot[3], angleToGoal)) 
         # print(goal)
         # print(self.robot[3], "->", angleToGoal, distance)
+        # if angle_diff < self.ang_tol:
+        #     lin_vel = self.lin
+        #     ang_vel = 0
+        # else:
+        #     lin_vel = 0
+        #     ang_vel = turning(self.robot[3], angleToGoal, self.ang)
         yaw_error = normalize_angle(self.robot[3] - angleToGoal)
         if abs(yaw_error) < self.ang_tol:
             lin_vel = self.lin
