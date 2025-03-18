@@ -206,8 +206,7 @@ class Sim_MS:
         # self.lidar_frame = rospy.get_param("~lidar_frame", "robot/odom")
         # self.fusion_frame = self.lidar_frame#"map" # velodyne, NOT odom
 
-        # model_path = "/home/ara/catkin_ws/src/culvert_sim/model/inst_seg_sim_arti_best.pt"
-        model_path = "/home/ara/catkin_ws/src/culvert_sim/model/acul_sim_out/best.pt"
+        model_path = "/home/ara/catkin_ws/src/culvert_sim/model/inst_seg_sim_arti_best.pt"
         rospy.loginfo("Loading YOLO model....")
         self.model = YOLO(model_path)
         rospy.loginfo("Done loading YOLO model!")
