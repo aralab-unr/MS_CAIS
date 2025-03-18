@@ -44,7 +44,7 @@ Put [bigger_rough_3crack_2spall](https://github.com/aralab-unr/MS_CAIS/tree/mast
 
 ```
 
-roscd culvert_sim
+roscd ms_cais
 cd model
 mv bigger_rough_3crack_2spall ~/.gazebo/model/
 ```
