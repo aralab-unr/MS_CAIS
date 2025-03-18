@@ -628,7 +628,7 @@ class Sim_MS:
             self.getObservation = False
             self.reading_count = 0
         
-    def update_belief(self, threshold=0.2):
+    def update_belief(self, threshold=0.3):
         if self.observations is None:
             for def_ in self.OOBelief:
                 # o^i = null

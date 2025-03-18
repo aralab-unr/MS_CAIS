@@ -53,11 +53,8 @@ mv bigger_rough_3crack_2spall ~/.gazebo/model/
 ```
 # launch sim environment
 roslaunch turtlebot3_culvert.launch
-    or
-roslaunch turtlebot3_culvert_2_def.launch
-    or
-turtlebot3_culvert_3_def.launch
-
+# launch MS-CAIS
+rosrun ms_cais sim_ms_test.py
 ```
 
 ## Contact
